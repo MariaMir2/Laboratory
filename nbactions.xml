@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-Ejecutar-Enrollment</actionName>
+            <displayName>Ejecutar Enrollment</displayName>
+            <goals>
+                <goal>compile</goal>
+                <goal>exec:java</goal>
+                <goal>-Dexec.mainClass=pa.Enrollment</goal>
+            </goals>
+        </action>
+    </actions>
